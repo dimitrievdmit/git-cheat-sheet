@@ -72,7 +72,6 @@
 - Статусная модель файлов показана на диаграмме ниже.
 
 ```mermaid
-  %% Статусная модель файлов
   flowchart TD
     A[untracked неотслеживаемый] -->|git add| B(staged в списке на коммит + tracked)
     B -->|git commit| C(tracked отслеживаемый)
